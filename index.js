@@ -79,37 +79,37 @@ inquirer.prompt([
 
     }
     let stringThis = `
-    *${date}*
+*${date}*
 
-    # Description
-    *${answers.Description}*
+# Description
+*${answers.Description}*
 
-    # table of contents:
-    1. Description
-    1. Installation
-    1. Usage
-    1. Contributors
-    1. Additional Info
+# table of contents:
+1. Description
+1. Installation
+1. Usage
+1. Contributors
+1. Additional Info
 
-    # Intstallation
-    ${answers.installation}
+# Intstallation
+${answers.installation}
 
-    # Usage
-    ${answers.Usage}
+# Usage
+${answers.Usage}
 
-    ### GitHub UserName
-    *${answers.username}*
-    ### Contributors
-    **${answers.Contributors}**
+### GitHub UserName
+*${answers.username}*
+### Contributors
+**${answers.Contributors}**
 
-    # Additional Info
-    *${answers.License}*
-    ##${answers.email}##
-    [GitHub](${profileLink})
-    ![Github Avatar](${avatarUrl})
-    *${bio}*
-    ${company}
-    ${hire}
+# Additional Info
+*${answers.License}*
+##${answers.email}##
+[GitHub](${profileLink})
+![Github Avatar](${avatarUrl})
+*${bio}*
+${company}
+${hire}
 `
    console.log(stringThis)
 
