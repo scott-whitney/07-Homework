@@ -1,5 +1,4 @@
-
-    *Sat, 11 Apr 2020 00:01:30 GMT*
+ *Sat, 11 Apr 2020 00:01:30 GMT*
 
     # Description
     *This was my first attempt at making a decent README.md usng markdown.*
